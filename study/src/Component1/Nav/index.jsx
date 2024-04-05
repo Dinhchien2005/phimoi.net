@@ -7,7 +7,7 @@ const items = [
 	{ label: 'About', icon: <BiInfoCircle size={defaultIconSize} /> }
 ]
 const NavItemsContainer = () => (
-	<>
+	<>	
 		{items.map((item, index) => (
 			<NavItem item={item} key={index} />
 		))}
